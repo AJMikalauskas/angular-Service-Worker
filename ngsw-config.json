@@ -28,6 +28,12 @@
     }
   ],
   "dataGroups": [
+    /* maxSize is number of entries wanted to cache,
+     maxAge is the time between when the cached API call data that is returned 
+     is changed due to expiration of data by your own time limit,
+     timeout is if you expect a response from the data and get none for 10 seconds,
+     falls back to old cache data that was working rather than cause error or bug 
+    */
     {
       "name": "weatherData",
       "urls": [
