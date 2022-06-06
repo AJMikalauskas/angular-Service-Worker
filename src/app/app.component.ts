@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { SwUpdate } from '@angular/service-worker';
 import { filter, switchMap, map } from 'rxjs';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

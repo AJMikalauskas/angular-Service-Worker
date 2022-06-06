@@ -26,5 +26,19 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "weatherData",
+      "urls": [
+        "https://api.openweathermap.org/data/2.5/weather?q=athens&appid=326bebe1d2367985a3ce843d8c71659a&units=metric"
+      ],
+      "cacheConfig": {
+        "maxSize": 5,
+        "maxAge": "6h",
+        "timeout": "10s",
+        "strategy": "performance"
+      }
+    }
   ]
 }
